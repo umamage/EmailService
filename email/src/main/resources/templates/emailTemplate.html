@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Email message from thymeleaf</title>
+</head>
+<body>
+<div>
+    <p>This is an email</p>
+</div>
+    <h1>This email is sent to <span th:text="${mailTo}"></span>with<span th:text="${sender}"></span></h1>
+</body>
+</html>
